@@ -2,7 +2,7 @@ require_relative "models"
 
 Fish.destroy_all
 
-Fish.create!([
+Fish.create([
 	{
 		name: "Clownfish",
 		image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg",
